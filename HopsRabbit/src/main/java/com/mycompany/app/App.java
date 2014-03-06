@@ -58,7 +58,7 @@ public class App
                 } */
                 
                 
-                 OutputStream to = new FileOutputStream("/home/xumakgt6/Pictures/NuevaImagen.jpeg");
+                 OutputStream to = new FileOutputStream("/home/xumakgt6/Pictures/NuevaImagen.jpeg");//path a donde crea la imagen 
                  
                  int inte; 
                   while ((inte = h2s.read()) != -1)
